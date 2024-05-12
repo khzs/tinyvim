@@ -28,3 +28,6 @@ map("v", "<leader>/", "gc", { remap = true })
 map("n", "<leader>fm", function()
   require("conform").format()
 end)
+
+-- Close NVimTree and quit
+map("n", "<C-q>", "<cmd> NvimTreeClose <CR> :q <CR>")
