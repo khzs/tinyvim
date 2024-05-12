@@ -6,7 +6,7 @@
 # Install
 - Linux or MacOS
 ```bash
-git clone https://github.com/NvChad/tinyvim ~/.config/nvim && nvim
+git clone https://github.com/khzs/tinyvim ~/.config/nvim && nvim
 ```
 
 Run `:MasonInstallAll` command after lazy.nvim finishes downloading plugins
